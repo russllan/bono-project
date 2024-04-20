@@ -6,6 +6,12 @@
   color: black;
   padding: 0px 99px;
 
+  .wrapperSlide {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
   h1 {
     width: 99%;
     font-size: 70px;

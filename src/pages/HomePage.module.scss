@@ -1,6 +1,7 @@
 .home {
   width: 100%;
   height: fit-content;
+  height: 120vh;
   background-image: url("images/main/mainBackground.svg");
   background-position: center;
   background-size: cover;
@@ -27,6 +28,8 @@
     }
   }
 
-   
+  .footer {
+    background: #141217;
+  }   
 
 }

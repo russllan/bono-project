@@ -23,20 +23,5 @@
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    .circle {
-      width: 80px;
-      height: 80px;
-      border-radius: 1000px;
-      shape-outside: circle();
-      clip-path: circle(50%);
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background-color: #c19d6d;
-      img {
-        cursor: pointer;
-        text-align: center;
-      }
-    }
   }
 }

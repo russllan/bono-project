@@ -10,11 +10,6 @@ function Main() {
         <div className={scss.wrapperBtn}>
           <button className={scss.btn}>Забронировать стол</button>
         </div>
-        <div className={scss.wrapperCircle}>
-          <div className={scss.circle}>
-            <Img src="/images/main/bell.svg" alt="bell" />
-          </div>
-        </div>
       </div>
     </div>
   );

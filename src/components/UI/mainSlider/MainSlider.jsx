@@ -3,8 +3,8 @@ import "swiper/css";
 import "swiper/css/navigation";
 import { Swiper, SwiperSlide } from "swiper/react";
 
-import 'swiper/css';
-import 'swiper/css/pagination';
+import "swiper/css";
+import "swiper/css/pagination";
 import { Navigation, Pagination } from "swiper/modules";
 import { dataSlider } from "./constants";
 
@@ -23,8 +23,10 @@ function MainSlider() {
       >
         {dataSlider?.map((item) => (
           <SwiperSlide key={item.title}>
-            <span>Выделяесь среди других</span>
-            <h1>{item.title}</h1>
+            <div className={scss.wrapperSlide}>
+              <span>Выделяесь среди других</span>
+              <h1>{item.title}</h1>
+            </div>
           </SwiperSlide>
         ))}
       </Swiper>
