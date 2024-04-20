@@ -1,0 +1,25 @@
+.headerMain {
+  width: 100%;
+  height: 80px;
+  background-image: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 100px;
+
+  .link {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+  }
+  .Left,
+  .Right {
+    display: flex;
+    align-items: center;
+  }
+  .Right {
+    gap: 26px;
+  }
+}

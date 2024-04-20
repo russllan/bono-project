@@ -3,21 +3,20 @@
   height: 80px;
   opacity: 0px;
   display: flex;
-  background-color: transparent;
+  justify-content: space-between;
+  background-image: transparent;
+  border-bottom: 1px solid #FFFFFF36;
+  padding: 0px 100px;
 
   .left,
   .right {
     display: flex;
-    width: 48%;
   }
 
   .left {
     justify-content: center;
     align-items: center;
     gap: 18px;
-    .bodyLeft {
-      // gap: 5px;
-    }
   }
   .right {
     justify-content: center;
