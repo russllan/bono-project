@@ -1,5 +1,6 @@
 import GallerySlider from "../components/UI/photoGallerySlider/GallerySlider";
 import BookForm from "../components/bookForm/BookForm";
+import Footer from "../components/footer/Footer";
 import Header from "../components/header/Header";
 import HeaderMain from "../components/headerMain/HeaderMain";
 import Kitchen from "../components/kitchen/Kitchen";
@@ -44,6 +45,9 @@ function HomePage() {
       </div>
       <div className={scss.bookTable}>
         <BookForm />
+      </div>
+      <div className={scss.footer}>
+        <Footer />
       </div>
     </div>
   );
