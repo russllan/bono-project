@@ -1,8 +1,11 @@
+import GallerySlider from "../components/UI/photoGallerySlider/GallerySlider";
 import Header from "../components/header/Header";
 import HeaderMain from "../components/headerMain/HeaderMain";
 import Kitchen from "../components/kitchen/Kitchen";
 import { dataKitchen } from "../components/kitchen/constant";
 import Main from "../components/main/Main";
+import Menu from "../components/menu/Menu";
+import Video from "../components/video/Video";
 import scss from "./HomePage.module.scss";
 
 function HomePage() {
@@ -17,11 +20,26 @@ function HomePage() {
       <div>
         <Main />
       </div>
-      <div>
-        <Kitchen data={dataKitchen} isLeft={true}/>
+      <div style={{ background: "#111111" }}>
+        <div>
+          <Kitchen data={dataKitchen} isLeft={true} />
+        </div>
+        <div>
+          <Kitchen data={dataKitchen} isLeft={false} />
+        </div>
+        <div>
+          <Menu />
+        </div>
       </div>
-      <div>
-        <Kitchen data={dataKitchen} isLeft={false}/>
+      <div className={scss.gallerySection}>
+        <div>
+          <GallerySlider />
+        </div>
+      </div>
+      <div className={scss.videoSection}>
+        <div>
+          <Video />
+        </div>
       </div>
     </div>
   );
